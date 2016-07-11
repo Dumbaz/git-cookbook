@@ -14,3 +14,6 @@ All the git CLI I tend to look up too many times
 
 3. ###### Delete the branch
   `git branch -d branch_name`
+
+## Configure a HTTP Proxy for git
+`git config --global http.proxy $HTTP_PROXY`
