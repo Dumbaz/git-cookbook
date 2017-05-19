@@ -17,3 +17,6 @@ All the git CLI I tend to look up too many times
 
 ## Configure a HTTP Proxy for git
 `git config --global http.proxy $HTTP_PROXY`
+
+## Undo one more more commits ##
+http://stackoverflow.com/questions/927358/how-to-undo-last-commits-in-git
