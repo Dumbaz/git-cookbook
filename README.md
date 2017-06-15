@@ -20,3 +20,15 @@ All the git CLI I tend to look up too many times
 
 ## Undo one more more commits ##
 http://stackoverflow.com/questions/927358/how-to-undo-last-commits-in-git
+
+## Show Commit history in CLI ##
+`git log`
+Last commits in reverse Order
+`git log -p`
+Differences introduced per commit
+`git log --since=2.weeks`
+Limit to commits of the last 2 weeks, other codewords are `2017-12-31` `2 years 1 day ago`
+`git log --grep string`
+Searches commit messages
+`git log -S string`
+Searches for changes in string in the code
