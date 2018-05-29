@@ -36,3 +36,10 @@ Searches commit messages
 
 `git log -S string`
 Searches for changes in string in the code
+
+## Show global git settings ##
+`git config --list`
+```
+git config --global user.name "Dorian Lenzner"
+git config --global user.email "dorian.lenzner@email.com"
+```
